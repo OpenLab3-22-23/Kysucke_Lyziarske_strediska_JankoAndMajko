@@ -1,0 +1,1 @@
+# Kysucke_Lyziarske_strediska_JankoAndMajko
