@@ -1,5 +1,7 @@
 import openlab from "./assets/openlab.svg";
 import { useAuth } from "./auth/Auth";
+import "./App.css";
+import SnowParadiseDir from "./SnowParadiseComp";
 
 export default function LandingPage(): JSX.Element {
 
@@ -10,9 +12,11 @@ export default function LandingPage(): JSX.Element {
     }
 
     return (
-        <div className="h-full w-full flex justify-center items-center flex-col">
-            <img src={openlab} alt="Logo OpenLab" className="w-80"/>
+<div>
+    <SnowParadiseDir></SnowParadiseDir>
+        <div className="SignOut" >
             <button onClick={handleLogOut}>Odhlásiť sa</button>
         </div>
+</div>
     )
 }
