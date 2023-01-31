@@ -23,7 +23,7 @@ export default function LandingPage(): JSX.Element {
           <body className="bg-cyan-200">
             <header className="cyan-200 p-6">
               <div className="container mx-auto">
-                <img src="src\images\Logo.png" alt="" />
+                <img src="src\images\Logo.png" alt="Logo" />
               </div>
             </header>
             <div className="container mx-auto p-6">
@@ -40,14 +40,18 @@ export default function LandingPage(): JSX.Element {
                 
                 <div className="w-full md:w-1/3 px-2 mb-4">
                   <div className="cyan-200 rounded-lg p-4">
-                    <h2 className="text-lg font-medium mb-2">Makov</h2>
-                    *priestor na imgs*
+                  <img src="src\images\Lokalita makov.png" alt="Makov" />
+                  <button><img className="my-20" src="src\images\Kasarne.png" alt="Kasárne Javorníky" /></button> 
                   </div>
                 </div>
                 <div className="w-full md:w-1/3 px-2 mb-4">
                   <div className="cyan-200 rounded-lg p-4">
-                    <h2 className="text-lg font-medium mb-2">Profil a oblubene</h2>
-                    *Miesto na imgs*
+
+                    <div className="flex justify-end">
+                      <button><img className="" src="src\images\Profil.png" alt="Profil" /></button>
+                      <button><img className="flex-initial" src="src\images\Oblubene.png" alt="Obľúbené" /></button>
+                    </div>
+
                   </div>
                 </div>
               </div>
