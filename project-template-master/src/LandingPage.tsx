@@ -13,9 +13,18 @@ export default function LandingPage(): JSX.Element {
 
           return(
             <Link to="/raca" className="text-emerald-300">
-            Raca-Link</Link>
+              <button><img className="my-20" src="src\images\Raca.png" alt="Snowparadise Veľká Rača" /></button> 
+            </Link>
           );
-    }
+          }
+          function NaGajuz(){
+            return(
+              <Link to="/gajuz" className="text-emerald-300">
+             <button><img src="src\images\Gajuz.png" alt="Sportcentrum Oščadnica" /></button> 
+            </Link>
+            );
+          }
+    
 
     return (
         
@@ -38,9 +47,7 @@ export default function LandingPage(): JSX.Element {
                   <div className="bg-cyan-200 rounded-lg p-4">
                   <img src="src\images\Lokalita oscadnica.png" alt="Oščadnica" />
                   <NaRacu/>
-
-                 <button><img className="my-20" src="src\images\Raca.png" alt="Snowparadise Veľká Rača" /></button> 
-                 <button><img src="src\images\Gajuz.png" alt="Sportcentrum Oščadnica" /></button> 
+                  <NaGajuz/>
                   </div>
                 </div>
 

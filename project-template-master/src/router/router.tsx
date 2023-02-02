@@ -3,6 +3,7 @@ import App from "../App";
 import LogIn from "../auth/Login";
 import SignUp from "../auth/SignUp";
 import Raca from "../Raca"
+import Gajuz from "../Gajuz"
 
 
 export const router = createBrowserRouter([
@@ -22,4 +23,8 @@ export const router = createBrowserRouter([
     path: "/raca",
     element: <Raca />,
   },
+  {
+  path: "/gajuz",
+  element: <Gajuz/>,
+  }
 ]);
