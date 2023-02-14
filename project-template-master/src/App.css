@@ -1,18 +1,20 @@
-p {
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+  }
+  
+  #pageFill {
+    background: #58CC58;
+    height: 100%;
+    width: 100%;   
+  }
+  p {
     color:red;
 }
-.pozadieRaca{
-    background-color: green;
-}
-.grid-container {
-    display: grid;
-    column-gap: 50px;
-    row-gap: 50px;
-  }
-  .grid-item {
-    font-size: 30px;
-    
-  }
+
+
   .RacaSTRLyziar{
       position: absolute;
       top: 20px;
@@ -22,5 +24,29 @@ p {
   .RacaSTRLogo{
       position: absolute;
       top: 20px;
-      text-align: center;
-  }
+      left:430px;  
+}
+.RacaInfoDiv{
+  display: inline-block;
+  position: absolute;
+  top: 440px;
+  left: 80px;
+  height: 250px;
+  width: 750px;
+  word-break: break-all;
+}
+.ppp{
+  display: inline-block;
+}
+.RacaUzitocnyNadpis {
+  position: absolute;
+  top: 350px;
+  left: 250px;
+  color: white;
+  font-size: 25px;
+}
+.GMaps{
+  position: absolute;
+  bottom: 30px;
+  right: 100px;
+}
