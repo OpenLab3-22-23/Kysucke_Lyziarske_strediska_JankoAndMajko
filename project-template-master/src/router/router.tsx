@@ -26,5 +26,5 @@ export const router = createBrowserRouter([
   {
   path: "/gajuz",
   element: <Gajuz/>,
-  }
+  },
 ]);

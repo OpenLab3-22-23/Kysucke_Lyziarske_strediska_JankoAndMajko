@@ -10,9 +10,7 @@ body {
     height: 100%;
     width: 100%;   
   }
-  p {
-    color:red;
-}
+ 
 
 
   .RacaSTRLyziar{
@@ -37,6 +35,7 @@ body {
 }
 .ppp{
   display: inline-block;
+  text-align: center;
 }
 .RacaUzitocnyNadpis {
   position: absolute;
