@@ -49,3 +49,25 @@ body {
   bottom: 30px;
   right: 100px;
 }
+.StarRatingDiv{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: 350px;
+  height: 500px;
+  background-color: grey;
+
+
+}
+.StarRatingColumn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.RecenzieH1{
+  color:purple;
+   text-align: center;
+   font-size: large;
+   font-weight: bold;
+}

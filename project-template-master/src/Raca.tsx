@@ -1,5 +1,11 @@
 import React from "react";
 import "./App.css";
+//import Rating from '@material-ui/lab/Rating';
+import Rating from '@mui/material/Rating';
+//import Box from '@material-ui/core/Box';
+import Box from '@mui/material/Box';
+import StarRating from "./StarRating";
+
 
 export default function Raca(){
     return(
@@ -19,11 +25,21 @@ Snowparadise Veľká Rača ponúka najdlhšie zjazdovky na večerné lyžovanie 
             </div>
         <div className="RecenzieDiv"></div>
         <div className="GMaps"><button><a href="https://www.google.sk/maps/place/Snowparadise+Ve%C4%BEk%C3%A1+Ra%C4%8Da+O%C5%A1%C4%8Dadnica/@49.4151925,18.9182577,16.75z/data=!4m6!3m5!1s0x47144722a0cd77ff:0x9f784ef390178455!8m2!3d49.415121!4d18.920534!16s%2Fg%2F1232457r2" target="_blank"><img src="src\images\GMapsLogo.png"></img></a></button></div>
+            <div className="StarRatingDiv">
+                <br></br>
+                <h1 className="RecenzieH1">Recenzie</h1>
+                <br></br>
+                <div  className="StarRatingColumn">
+                    
+                    
+                    <StarRating/>
+                </div>
 
-
+            </div>
 
 
     </div>
     </body>
     );
+    
 }
