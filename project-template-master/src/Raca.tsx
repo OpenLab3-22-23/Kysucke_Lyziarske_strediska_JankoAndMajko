@@ -34,6 +34,7 @@ Snowparadise Veľká Rača ponúka najdlhšie zjazdovky na večerné lyžovanie 
                     
                     <StarRating/>
                 </div>
+             
 
             </div>
 
